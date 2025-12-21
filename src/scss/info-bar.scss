@@ -1,0 +1,48 @@
+@import './colors.scss';
+@import "./bootstrap.scss";
+
+.mobile-menu {
+    display: none;
+}
+
+@include media-breakpoint-down(md) {
+    .mobile-menu {
+        display: block;
+        background-color: $dark-brown;
+        padding: 20px;
+        color: $white;
+    }
+}
+
+.info-bar-wrapper {
+    background-color: $dark-brown;
+    color: $white;
+    
+    .col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        .info-bar-button {
+            color: $white;
+            width: 100%;
+            padding: 20px 0;
+        }
+    
+    
+        .info-bar-button:visited,
+        .info-bar-button:active {
+            text-decoration: none;
+            color: $white;
+        }
+    }
+}
+
+
+@include media-breakpoint-down(md) {
+    .info-bar-wrapper {
+        display: none !important;
+    }
+
+}

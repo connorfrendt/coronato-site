@@ -1,9 +1,11 @@
 <template>
-    <div>
-        <div>Home Component!</div>
+    <div class="image-wrapper">
+        <img src="../assets/this-image-now.png" class="logo-image" />
     </div>
 </template>
 
 <script></script>
 
-<style></style>
+<style>
+    @import '../scss/home.scss';
+</style>

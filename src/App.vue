@@ -1,12 +1,12 @@
 <template>
     <div>
-        <h1>This is the App</h1>
         <RouterView />
+        <InfoBar></InfoBar>
     </div>
 </template>
 
 <script setup>
-    
+    import InfoBar from './components/InfoBar.vue';
 </script>
 
 <style scoped>
