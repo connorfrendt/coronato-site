@@ -1,16 +1,37 @@
 @import './colors.scss';
 @import "./bootstrap.scss";
 
-.mobile-menu {
+.mobile-menu-wrapper {
     display: none;
 }
 
 @include media-breakpoint-down(md) {
-    .mobile-menu {
+    .mobile-menu-wrapper {
         display: block;
         background-color: $dark-brown;
         padding: 20px;
         color: $white;
+
+        .menu-title {
+
+        }
+
+        .inner-menu-wrapper {
+            padding-left: 20px;
+
+            .info-bar-button {
+                color: $white;
+                width: 100%;
+                padding: 20px 0;
+            }
+        
+        
+            .info-bar-button:visited,
+            .info-bar-button:active {
+                text-decoration: none;
+                color: $white;
+            }
+        }
     }
 }
 
