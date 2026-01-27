@@ -11,7 +11,17 @@
                 </div>
                 <div class="row">
                     <div class="col">
+                        <RouterLink class="info-bar-button" to="/services">Services</RouterLink>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
                         <RouterLink class="info-bar-button" to="/about-me">About Us</RouterLink>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <RouterLink class="info-bar-button" to="/reviews">Reviews</RouterLink>
                     </div>
                 </div>
                 <div class="row">
@@ -24,31 +34,29 @@
                         <RouterLink class="info-bar-button" to="/contact-us">Contact Us</RouterLink>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <RouterLink class="info-bar-button" to="/reviews">Reviews</RouterLink>
-                    </div>
-                </div>
             </div>
         </div>
 
         <!-- DESKTOP HEADER -->
         <div class="container-fluid">
-            <div class="row row-cols-2 row-cols-md-5 info-bar-wrapper">
+            <div class="row row-cols-2 row-cols-md-6 info-bar-wrapper">
                 <div class="col">
                     <RouterLink class="info-bar-button" to="/">Home</RouterLink>
                 </div>
                 <div class="col">
+                    <RouterLink class="info-bar-button" to="/services">Services</RouterLink>
+                </div>
+                <div class="col">
                     <RouterLink class="info-bar-button" to="/about-me">About Us</RouterLink>
+                </div>
+                <div class="col">
+                    <RouterLink class="info-bar-button" to="/reviews">Reviews</RouterLink>
                 </div>
                 <div class="col">
                     <RouterLink class="info-bar-button" to="/TBD">Book an Appointment</RouterLink>
                 </div>
                 <div class="col">
                     <RouterLink class="info-bar-button" to="/contact-us">Contact Us</RouterLink>
-                </div>
-                <div class="col">
-                    <RouterLink class="info-bar-button" to="/reviews">Reviews</RouterLink>
                 </div>
             </div>
         </div>

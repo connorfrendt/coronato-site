@@ -1,7 +1,7 @@
 <template>
     <div>
-        <RouterView />
         <InfoBar></InfoBar>
+        <RouterView />
     </div>
 </template>
 

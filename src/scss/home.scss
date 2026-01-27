@@ -1,10 +1,38 @@
+@import './colors.scss';
+@import "./bootstrap.scss";
+
 .image-wrapper {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
 
     .logo-image {
         max-width: 800px;
         width: 80%;
+    }
+
+    .quote {
+        font-family: $handwriting;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .carousel {
+        .carousel-inner {
+            max-height: 200px;
+
+            .carousel-item {
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+
+                }
+            }
+        }
     }
 }

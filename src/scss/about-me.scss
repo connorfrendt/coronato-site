@@ -1,0 +1,19 @@
+@import './colors.scss';
+@import "./bootstrap.scss";
+
+.image-wrapper {
+    max-height: 300px;
+
+    .image {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: contain;
+    }
+}
+
+.text {
+    background-color: $light-brown;
+    padding: 10px;
+    margin: 10px;
+}

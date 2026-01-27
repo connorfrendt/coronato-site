@@ -1,0 +1,11 @@
+@import './colors.scss';
+@import "./bootstrap.scss";
+
+.row-wrapper {
+    margin: 10px;
+
+    .service-row {
+        background-color: $light-brown;
+        padding: 10px;
+    }
+}
