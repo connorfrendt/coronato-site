@@ -53,7 +53,7 @@
                     <RouterLink class="info-bar-button" to="/reviews">Reviews</RouterLink>
                 </div>
                 <div class="col">
-                    <RouterLink class="info-bar-button" to="/TBD">Book an Appointment</RouterLink>
+                    <RouterLink class="info-bar-button" to="/book-an-appointment">Book an Appointment</RouterLink>
                 </div>
                 <div class="col">
                     <RouterLink class="info-bar-button" to="/contact-us">Contact Us</RouterLink>

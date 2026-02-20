@@ -21,5 +21,5 @@
 <script setup></script>
 
 <style>
-    @import '../scss/about-me.scss';
+    @import '../scss/about-us.scss';
 </style>

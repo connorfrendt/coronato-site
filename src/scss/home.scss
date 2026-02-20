@@ -25,15 +25,18 @@
 
     .carousel {
         .carousel-inner {
-            max-height: 200px;
+            width: 100%;
 
             .carousel-item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
                 img {
-                    height: 100%;
+                    height: auto;
                     width: 100%;
                     object-fit: contain;
-
+                    max-height: 60vh;
                 }
             }
         }
