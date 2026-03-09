@@ -1,8 +1,7 @@
 <template>
     <div>
         <div class="appt">
-            Book An Appointment!
-            <Calendly calendlyUrl="https://calendly.com/connorfrendt/30min" />
+            <Calendly url="https://calendly.com/connorfrendt/test-test-meeting" />
         </div>
     </div>
 </template>
